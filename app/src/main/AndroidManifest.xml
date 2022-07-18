@@ -22,6 +22,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+            <meta-data
+                android:name="io.sentry.dsn"
+                android:value="https://examplePublicKey@o0.ingest.sentry.io/0" />
     </application>
 
 </manifest>
